@@ -1,0 +1,3 @@
+vhdl work "src/exp_bus_ctrl.vhdl"
+vhdl work "src/cpi.vhdl"
+vhdl work "src/test_bench.vhd"

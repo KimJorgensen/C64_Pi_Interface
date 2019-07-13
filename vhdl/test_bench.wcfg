@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="./isim.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="test_bench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/test_bench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/d_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d_clk</obj_property>
+      <obj_property name="ObjectShortName">d_clk</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/phi2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">phi2</obj_property>
+      <obj_property name="ObjectShortName">phi2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_wr</obj_property>
+      <obj_property name="ObjectShortName">n_wr</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/ba" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ba</obj_property>
+      <obj_property name="ObjectShortName">ba</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_roml" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_roml</obj_property>
+      <obj_property name="ObjectShortName">n_roml</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_romh" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_romh</obj_property>
+      <obj_property name="ObjectShortName">n_romh</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_io1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_io1</obj_property>
+      <obj_property name="ObjectShortName">n_io1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_io2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_io2</obj_property>
+      <obj_property name="ObjectShortName">n_io2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_reset</obj_property>
+      <obj_property name="ObjectShortName">n_reset</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/sa" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sa[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sa[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_swe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_swe</obj_property>
+      <obj_property name="ObjectShortName">n_swe</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_soe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_soe</obj_property>
+      <obj_property name="ObjectShortName">n_soe</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/sd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sd[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sd[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/sdrr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdrr</obj_property>
+      <obj_property name="ObjectShortName">sdrr</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/sdwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sdwr</obj_property>
+      <obj_property name="ObjectShortName">sdwr</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_sw2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_sw2</obj_property>
+      <obj_property name="ObjectShortName">n_sw2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_led" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_led</obj_property>
+      <obj_property name="ObjectShortName">n_led</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/tp1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tp1</obj_property>
+      <obj_property name="ObjectShortName">tp1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/tp2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tp2</obj_property>
+      <obj_property name="ObjectShortName">tp2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/tp3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tp3</obj_property>
+      <obj_property name="ObjectShortName">tp3</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/tp4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tp4</obj_property>
+      <obj_property name="ObjectShortName">tp4</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/tp5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tp5</obj_property>
+      <obj_property name="ObjectShortName">tp5</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_dma" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_dma</obj_property>
+      <obj_property name="ObjectShortName">n_dma</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_irq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_irq</obj_property>
+      <obj_property name="ObjectShortName">n_irq</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_nmi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_nmi</obj_property>
+      <obj_property name="ObjectShortName">n_nmi</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_exrom" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_exrom</obj_property>
+      <obj_property name="ObjectShortName">n_exrom</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_game" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_game</obj_property>
+      <obj_property name="ObjectShortName">n_game</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_flash_cs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_flash_cs</obj_property>
+      <obj_property name="ObjectShortName">n_flash_cs</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_ram_cs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_ram_cs</obj_property>
+      <obj_property name="ObjectShortName">n_ram_cs</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/sck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/miso" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_wp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_wp</obj_property>
+      <obj_property name="ObjectShortName">n_wp</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/mosi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/n_hold" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n_hold</obj_property>
+      <obj_property name="ObjectShortName">n_hold</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/d_clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">d_clk_period</obj_property>
+      <obj_property name="ObjectShortName">d_clk_period</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/phi2_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">phi2_period</obj_property>
+      <obj_property name="ObjectShortName">phi2_period</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/t_aes_max" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t_aes_max</obj_property>
+      <obj_property name="ObjectShortName">t_aes_max</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_bench/t_hrw_typ" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t_hrw_typ</obj_property>
+      <obj_property name="ObjectShortName">t_hrw_typ</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

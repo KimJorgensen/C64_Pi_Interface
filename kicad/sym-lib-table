@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name C64-Exp-Port)(type Legacy)(uri "/home/kim/Hardware/Raspberry Pi/C64_interface/C64_Pi_Interface/lib/C64-Exp-Port.lib")(options "")(descr ""))
+  (lib (name C64_Pi_Interface-rescue)(type Legacy)(uri ${KIPRJMOD}/C64_Pi_Interface-rescue.lib)(options "")(descr ""))
+)
